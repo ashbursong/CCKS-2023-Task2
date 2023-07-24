@@ -1,7 +1,10 @@
-# Code for CCKS 2023, inductive link prediction
+# Code for CCKS 2023 task2, inductive link prediction
 
 Team Member:
-Tianyu Liu, Deqiang Huang, Guoqing Zhao (All of us are students of USTC.)
+- [Tianyu Liu](tianyu_liu@mail.ustc.edu.cn), 
+- [Deqiang Huang](deqianghuang@mail.ustc.edu.cn), 
+- [Guoqing Zhao](2208513233@qq.com) 
+(All of us are students of USTC.)
 
 ## Preparation
 1. All the data and pretrained model are included into `data` folder and `exp/NBFNet/CCKS` folder.
