@@ -48,4 +48,4 @@ This will generate a `test.json` file in the current path.
 
 ## Citation
 
-We use the official codebase of ![NBFNet](https://arxiv.org/pdf/2106.06935.pdf), thanks for their contribution.
+We use the official codebase of [NBFNet](https://arxiv.org/pdf/2106.06935.pdf), thanks for their contribution.
