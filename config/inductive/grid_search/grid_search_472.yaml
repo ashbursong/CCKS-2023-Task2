@@ -1,0 +1,24 @@
+dataset: {class: CCKS, root: ~/tyliu_code/NBFNet/knowledge_graphs/}
+exp_name: grid_search_472
+model:
+  aggregate_func: pna
+  class: NBFNet
+  dependent: true
+  hidden_dims: [32, 32, 32, 32, 32, 32]
+  input_dim: 32
+  layer_norm: false
+  message_func: distmult
+  remove_one_hop: false
+  short_cut: false
+optimizer: {class: Adam, lr: 0.001}
+output_dir: exp/
+task:
+  adversarial_temperature: 0.5
+  metric: [mr, mrr, hits@1, hits@3, hits@10, hits@10_50]
+  num_negative: 32
+  strict_negative: true
+train:
+  batch_size: 64
+  gpus: [0]
+  log_interval: 100
+  num_epoch: 10
